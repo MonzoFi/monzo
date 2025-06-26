@@ -1,0 +1,59 @@
+ to build a **website like [SimpleSwap.io](w)** that also includes **middleman escrow functionality** and **INR-to-crypto support**:
+
+> I want to create a complete, professional-grade cryptocurrency swap and escrow platform similar to [SimpleSwap.io](w), but with added features tailored for the Indian market and peer-to-peer safety. The platform should:
+>
+> ### 1. **Core Features:**
+>
+> * Allow instant **crypto-to-crypto** swaps (e.g. BTC → ETH, LTC → SOL).
+> * Support **INR to crypto** and **crypto to INR** transactions with UPI integration.
+> * Enable **users to register/login** securely with 2FA.
+> * Provide live market rates using reliable APIs (like CoinGecko, Binance, or CoinMarketCap).
+>
+> ### 2. **Middleman (Escrow) Module:**
+>
+> * Include an **automated escrow system** for P2P trades.
+> * Either the **buyer** or **seller** can create a trade room.
+> * The creator invites the other party (via user ID/email) into a secured deal room.
+> * The bot/platform holds the crypto until both parties confirm.
+> * Once payment is marked “complete” and verified (e.g. with proof or manual staff approval), the platform auto-releases the funds.
+> * Include a **dispute system** if parties disagree.
+>
+> ### 3. **Admin & Staff Panel:**
+>
+> * Manage users, disputes, transactions.
+> * View and resolve escrow claims.
+> * Add/remove supported coins or payment methods.
+>
+> ### 4. **Supported Coins & Payments:**
+>
+> * Include major coins: BTC, ETH, SOL, LTC, USDT (ERC20/TRC20), BNB, XMR, etc.
+> * Accept INR via UPI (PhonePe, GPay, Paytm), IMPS, and Bank Transfers.
+>
+> ### 5. **Frontend & UI:**
+>
+> * A sleek, mobile-responsive design inspired by SimpleSwap.io and Binance.
+> * Dashboard for active swaps, transaction history, and escrow deals.
+> * Real-time swap quotes and transaction estimates.
+> * Light/Dark theme toggle.
+>
+> ### 6. **Security & Transparency:**
+>
+> * Implement SSL, 2FA, rate limits, and anti-DDoS protection.
+> * Maintain transaction logs and receipts (PDF/Email).
+> * Optional KYC (basic/advanced tiers).
+>
+> ### 7. **Extras:**
+>
+> * Referral system.
+> * Affiliate links.
+> * Loyalty/rewards point system.
+>
+> ### Stack Suggestions (optional):
+>
+> * Frontend: React/Next.js or Vue.js
+> * Backend: Node.js (Express) or Django
+> * Database: PostgreSQL or MongoDB
+> * Payment API: Razorpay or Cashfree for INR
+> * Crypto API: CoinGecko, Binance, or 1inch
+>
+> Please provide a scalable architecture, clean modular code, and robust security practices. Include future-proofing for DeFi features, wallet integration (Metamask), and mobile app expansion.

@@ -106,6 +106,3 @@
     "bufferutil": "^4.0.8"
   }
 }
-cd client
-npm install vite --save-dev
-
